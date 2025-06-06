@@ -1,0 +1,13 @@
+name = "TailBliss"
+license = "MIT"
+licenselink = "https://github.com/AHMED-i47/AHMED-i47.github.io/blob/main/LICENSE"
+description = "Portfolio theme with TailwindCSS"
+
+[author]
+  name = "HAMDAOUA AHMED"
+  homepage = "https://ahmed-i47.github.io"
+
+[original]
+  name = "TailBliss"
+  homepage = "https://github.com/nusserstudios/tailbliss"
+  repo = "https://github.com/nusserstudios/tailbliss" 
