@@ -1,7 +1,7 @@
 {
-  "name": "TailBliss",
-  "version": "0.6.1",
-  "description": "Hugo + Alpine.js + TailwindCSS",
+  "name": "ahmed-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio de cybersécurité de HAMDAOUA AHMED",
   "main": "index.js",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
@@ -21,25 +21,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nusserstudios/tailbliss.git"
+    "url": "git+https://github.com/AHMED-i47/AHMED-i47.github.io.git"
   },
   "keywords": [
-    "hugo",
+    "portfolio",
+    "cybersecurity",
+    "INPT",
+    "security",
     "tailwind",
-    "tailwindcss",
-    "alpinejs",
-    "minimal",
-    "responsive",
-    "light mode",
-    "dark mode",
-    "hugo blog",
-    "categories",
-    "tags"
+    "hugo"
   ],
-  "author": "NusserStudios",
-  "license": "Apache-2.0",
+  "author": "HAMDAOUA AHMED",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nusserstudios/tailbliss/issues"
+    "url": "https://github.com/AHMED-i47/AHMED-i47.github.io/issues"
   },
-  "homepage": "https://github.com/nusserstudios/tailbliss"
+  "homepage": "https://ahmed-i47.github.io"
 }
