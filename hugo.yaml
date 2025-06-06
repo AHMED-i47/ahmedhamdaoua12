@@ -1,57 +1,20 @@
-baseURL: ''
-title: portfolio cybersecurity
-languageCode: en-us
-DefaultContentLanguage: en
+baseURL: 'https://ahmed-i47.github.io/'
+title: "Portfolio Cybersecurity - HAMDAOUA AHMED"
+languageCode: fr-fr
+DefaultContentLanguage: fr
+theme: ""
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
-pagination:
-  pagerSize: 6
-darkmode_js:
-  - assets/js/darkmode.js
-enableInlineShortcodes: true
-
-markup:
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      linkifyProtocol: https
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer:
-        apostrophe: '&rsquo;'
-        disable: false
-        ellipsis: '&hellip;'
-        emDash: '&mdash;'
-        enDash: '&ndash;'
-        leftAngleQuote: '&laquo;'
-        leftDoubleQuote: '&ldquo;'
-        leftSingleQuote: '&lsquo;'
-        rightAngleQuote: '&raquo;'
-        rightDoubleQuote: '&rdquo;'
-        rightSingleQuote: '&rsquo;'
-    parser:
-      attribute:
-        block: false
-        title: true
-      autoHeadingID: true
-      autoHeadingIDType: github
-      wrapStandAloneImageWithinParagraph: true
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xhtml: false
+paginate: 10
 
 params:
   author: HAMDAOUA AHMED
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Super Fast, and Flexible"
-  description:"Je suis élève ingénieur en cybersecurity dans l'institut national des postes et télécommunications."
+  moto: "Élève Ingénieur en Cybersécurité"
+  description: "Je suis élève ingénieur en cybersecurity dans l'institut national des postes et télécommunications."
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
@@ -60,26 +23,27 @@ params:
     image: "images/pages/cybersecurity-mission.png"
     content:
       - text: "En tant qu'élève ingénieur en cybersécurité à l'INPT, ma mission est de développer une expertise solide dans la protection des systèmes d'information et la sécurisation des infrastructures numériques."
-      - text: " Je me spécialise dans différents domaines de la cybersécurité, notamment la sécurité des réseaux, le pentesting, et l'analyse des vulnérabilités. Mon parcours académique me permet d'acquérir des compétences pratiques et théoriques essentielles."
-      - text: "Mon objectif est de contribuer activement à la protection des données et des systèmes informatiques, tout en restant à jour avec les dernières technologies et menaces en cybersécurité.."
+      - text: "Je me spécialise dans différents domaines de la cybersécurité, notamment la sécurité des réseaux, le pentesting, et l'analyse des vulnérabilités. Mon parcours académique me permet d'acquérir des compétences pratiques et théoriques essentielles."
+      - text: "Mon objectif est de contribuer activement à la protection des données et des systèmes informatiques, tout en restant à jour avec les dernières technologies et menaces en cybersécurité."
+
   p2:
-    heading: "Mes Compétences et Projets."
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "Mes Compétences et Projets"
+    image: "images/pages/skills.jpg"
     content:
-      - "En parallèle de mes études à l'INPT,je suis membre dans comité sport spécialement la section du football en plus j'ai réalisé plusieurs projets incluant une platforme partage de fichiers sécurisées et une platforme éducatif qui mais en oeuvre des quiz à la disposition des étudiants."
- 
-    
+      - text: "En parallèle de mes études à l'INPT, je suis membre dans comité sport spécialement la section du football. J'ai réalisé plusieurs projets incluant une plateforme de partage de fichiers sécurisée et une plateforme éducative qui met en œuvre des quiz à la disposition des étudiants."
+
   p4:
     heading: "Articles et Recherches"
     content:
-      - text: "Je partage régulièrement mes découvertes et apprentissages à travers des articles techniques sur la cybersécurité. Mes publications couvrent divers sujets, des analyses de vulnérabilités aux guides pratiques de sécurisation, en passant par des retours d'expérience sur mes projets académiques."
+      - text: "Je partage régulièrement mes découvertes et apprentissages à travers des articles techniques sur la cybersécurité. Mes publications couvrent divers sujets, des analyses de vulnérabilités aux guides pratiques de sécurisation."
+
   p5:
     heading: "Connectons-nous"
     content:
-      - text: "En tant qu'élève ingénieur en cybersécurité à l'INPT, je partage régulièrement mes projets académiques, mes apprentissages et mes découvertes dans le domaine de la sécurité informatique. Inscrivez-vous pour suivre mon évolution et mes réalisations."
+      - text: "En tant qu'élève ingénieur en cybersécurité à l'INPT, je partage régulièrement mes projets académiques et mes découvertes dans le domaine de la sécurité informatique. Inscrivez-vous pour suivre mon évolution."
     action: "#"
     label: "Email"
-    placeholder: "ahmedhamdaoua@gmail.com"
+    placeholder: "Votre email"
     button: "Me suivre"
 
   social_media:
@@ -94,80 +58,26 @@ params:
       url: 'https://instagram.com/a7medham5'
     twitter:
       enabled: false
-      url: 'https://twitter.com/nusserstudios'
-    
+      url: ''
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
-      weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-  dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
-  footer:
-    - identifier: about
-      name: About
+      name: À propos
       url: /about/
       weight: 10
+    - identifier: projects
+      name: Projets
+      url: /projects/
+      weight: 20
     - identifier: blog
       name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
+      url: /blog/
       weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 50
+      weight: 40
 
 markup:
   goldmark:
@@ -178,30 +88,11 @@ taxonomies:
   category: Categories
   tag: Tags
 
-privacy:
-  disqus:
-    disable: false
-  googleAnalytics:
-    anonymizeIP: true
-    disable: false
-    respectDoNotTrack: false
-    useSessionStorage: false
-  instagram:
-    disable: false
-    simple: false
-  twitter:
-    disable: false
-    enableDNT: false
-    simple: false
-  vimeo:
-    disable: false
-    enableDNT: false
-    simple: false
-  youtube:
-    disable: false
-    privacyEnhanced: true
+security:
+  enableInlineShortcodes: true
+  exec:
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+    osEnv: ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
 
-module:
-  hugoVersion:
-    extended: true
-    min: "0.114.0"
+build:
+  writeStats: true
