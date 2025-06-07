@@ -47,8 +47,17 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
         
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm clean-install
+        
+      - name: Install PostCSS CLI
+        run: npm install -g postcss-cli
 
       - name: Build with Hugo
         env:
@@ -59,7 +68,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "/ahmedhamdaoua12/"
+            --baseURL "https://ahmed-i47.github.io/ahmedhamdaoua12"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2

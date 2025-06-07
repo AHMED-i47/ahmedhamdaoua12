@@ -1,4 +1,4 @@
-baseURL: 'https://ahmed-i47.github.io/ahmedhamdaoua12/'
+baseURL: 'https://ahmed-i47.github.io/ahmedhamdaoua12'
 title: "Portfolio Cybersecurity - HAMDAOUA AHMED"
 languageCode: fr-fr
 DefaultContentLanguage: fr
@@ -7,8 +7,9 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
-relativeURLs: true
+relativeURLs: false
 uglyURLs: false
+publishDir: "public"
 
 pagination:
   pagerSize: 10
