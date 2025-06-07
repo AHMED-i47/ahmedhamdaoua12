@@ -7,3 +7,7 @@ yarn-error.log
 # Local Netlify folder
 .netlify
 yarn-error.log
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.DS_Store

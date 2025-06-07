@@ -13,8 +13,8 @@ pagination:
 
 params:
   author: HAMDAOUA AHMED
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  authorimage: "/images/cybersecurity/ethical-hacking.png"
+  og_image: "/images/cybersecurity/cyber-banner.jpg"
   moto: "Élève Ingénieur en Cybersécurité"
   description: "Je suis élève ingénieur en cybersecurity dans l'institut national des postes et télécommunications."
   disable_theme_toggle: false
@@ -22,7 +22,7 @@ params:
 
   p1:
     heading: "Mon Objectif"
-    image: "images/pages/cybersecurity-mission.png"
+    image: "/images/cybersecurity/cyber-intro.jpg"
     content:
       - text: "En tant qu'élève ingénieur en cybersécurité à l'INPT, ma mission est de développer une expertise solide dans la protection des systèmes d'information et la sécurisation des infrastructures numériques."
       - text: "Je me spécialise dans différents domaines de la cybersécurité, notamment la sécurité des réseaux, le pentesting, et l'analyse des vulnérabilités. Mon parcours académique me permet d'acquérir des compétences pratiques et théoriques essentielles."
@@ -30,7 +30,7 @@ params:
 
   p2:
     heading: "Mes Compétences et Projets"
-    image: "images/pages/skills.jpg"
+    image: "/images/cybersecurity/security-tools.png"
     content:
       - text: "En parallèle de mes études à l'INPT, je suis membre dans comité sport spécialement la section du football. J'ai réalisé plusieurs projets incluant une plateforme de partage de fichiers sécurisée et une plateforme éducative qui met en œuvre des quiz à la disposition des étudiants."
 
@@ -93,7 +93,7 @@ taxonomies:
 security:
   enableInlineShortcodes: true
   exec:
-    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$', '^git$']
     osEnv: ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
 
 build:
