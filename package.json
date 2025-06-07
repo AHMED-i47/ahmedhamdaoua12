@@ -10,7 +10,7 @@
     "start": "hugo server --disableFastRender"
   },
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
