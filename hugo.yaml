@@ -6,8 +6,9 @@ theme: "tailbliss"
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
-canonifyURLs: true
+canonifyURLs: false
 relativeURLs: true
+uglyURLs: false
 
 pagination:
   pagerSize: 10
